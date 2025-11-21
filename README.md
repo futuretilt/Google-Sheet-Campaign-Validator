@@ -4,11 +4,11 @@ A lightweight microservice that extracts column headers from Google Sheets. Desi
 
 ## Features
 
-- ✅ Extract column headers from any Google Sheet
-- ✅ Minimal dependencies (only Google API client libraries)
-- ✅ Support for service account authentication with delegation
-- ✅ Compatible with AWS Lambda
-- ✅ Includes Google Apps Script integration example
+- Extract column headers from any Google Sheet
+- Minimal dependencies (only Google API client libraries)
+- Support for service account authentication with delegation
+- Compatible with AWS Lambda
+- Includes Google Apps Script integration example
 
 ## What This Service Does
 
@@ -18,14 +18,14 @@ This microservice does **only one thing**: reads the header row (first row) of a
 
 Compared to the original campaign creation microservice, this service removes:
 
-- ❌ Campaign creation logic
-- ❌ Klaviyo integration
-- ❌ Trello integration
-- ❌ Tag management
-- ❌ Segment validation
-- ❌ Complex data parsing and transformation
-- ❌ Pandas data processing (except for basic operations)
-- ❌ Business logic for audiences, send times, etc.
+- Campaign creation logic
+- Klaviyo integration
+- Trello integration
+- Tag management
+- Segment validation
+- Complex data parsing and transformation
+- Pandas data processing (except for basic operations)
+- Business logic for audiences, send times, etc.
 
 ## Installation
 
