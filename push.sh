@@ -2,7 +2,7 @@
 
 # ECR Configuration
 ECR_REGISTRY="992382592846.dkr.ecr.us-east-2.amazonaws.com"
-ECR_REPOSITORY="trello-lambda-test"
+ECR_REPOSITORY="googlesheet/campaign-validator"
 IMAGE_TAG="latest"
 AWS_REGION="us-east-2"
 SCRIPT_VERSION="1.2.0"
